@@ -1,2 +1,4 @@
-# feelbe
-Appli de fitness et bien-être connectée : motivation, énergie et sérénité réunies.
+# FEELBE™
+
+**Votre allié fitness et bien-être connecté.**  
+Motivation, énergie et sérénité réunies dans une seule application.
