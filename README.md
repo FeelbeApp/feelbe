@@ -1,4 +1,6 @@
 # FEELBE™
 
-**Votre allié fitness et bien-être connecté.**  
+![Logo provisoire](brand/logo.png)
+
+**Votre allié fitness et bien-être connectée.**  
 Motivation, énergie et sérénité réunies dans une seule application.
