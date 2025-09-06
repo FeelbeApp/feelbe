@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FEELBE — Appli fitness et bien-être</title>
+  <meta name="description" content="Appli de fitness et bien-être connectée : motivation, énergie et sérénité réunies." />
+  <style>
+    :root{
+      --max-w: 900px;
+      --bg: #ffffff;
+      --text: #0f1724;
+      --muted: #6b7280;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: var(--bg);
+      color:var(--text);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:36px;
+    }
+    .wrap{
+      width:100%;
+      max-width:var(--max-w);
+      text-align:center;
+      padding:32px;
+      border-radius:12px;
+    }
+
+    /* Logo */
+    .logo{
+      max-width:200px;
+      height:auto;
+      display:block;
+      margin:0 auto 18px;
+      border-radius:14px;
+      box-shadow: 0 6px 18px rgba(16,24,40,0.08);
+      background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.2));
+    }
+
+    .site-title{
+      font-size:28px;
+      letter-spacing:0.6px;
+      margin: 0 0 10px;
+      font-weight:700;
+    }
+
+    /* Tagline multicolore */
+    .tagline{
+      font-size:18px;
+      line-height:1.4;
+      margin:0 0 20px;
+      max-width:760px;
+      margin-left:auto;
+      margin-right:auto;
+      color:var(--muted);
+    }
+    .highlight{
+      font-weight:700;
+      background: linear-gradient(90deg,#ff7a5c,#ffb86b,#7bd389,#6ec0ff,#a58bff);
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+    }
+
+    /* Contact button */
+    .contact{
+      display:inline-block;
+      text-decoration:none;
+      padding:10px 18px;
+      border-radius:10px;
+      border: 1px solid rgba(15,23,36,0.08);
+      font-weight:600;
+      margin-top:8px;
+      color:var(--text);
+      background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.7));
+      box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+    }
+
+    /* Small foot */
+    .foot{
+      margin-top:28px;
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    @media (max-width:560px){
+      .logo{max-width:140px}
+      .site-title{font-size:22px}
+      .tagline{font-size:16px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- Image : remplace brand/logo.jpg si nécessaire -->
+    <img id="logo" class="logo" src="brand/logo.jpg" alt="Logo FEELBE" 
+         onload="document.querySelector('.site-title').style.display='none'" 
+         onerror="this.style.display='none'">
+    <!-- Titre visible si l'image n'est pas chargée -->
+    <h1 class="site-title">FEELBE™</h1>
+
+    <p class="tagline">
+      <span class="highlight">Appli de fitness et bien-être connectée</span><br>
+      Motivation, énergie et sérénité réunies.
+    </p>
+
+    <!-- Email : pouronflavie@gmail.com -->
+    <p>
+      <a class="contact" href="mailto:pouronflavie@gmail.com">Contact : pouronflavie@gmail.com</a>
+    </p>
+
+    <div class="foot">
+      © FEELBE™ — Tous droits réservés.
+    </div>
+  </div>
+</body>
+</html>
