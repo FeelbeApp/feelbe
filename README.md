@@ -1,3 +1,4 @@
+![Logo Feelbe](logo.jpg)
 # FEELBE™
 
 **Votre allié fitness et bien-être connecté.**  
